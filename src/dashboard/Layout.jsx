@@ -1,7 +1,7 @@
 // Layout.js
 import React, { useState } from "react";
-import Sidebar from "./Sidebar"; // pastikan jalur impor benar
-import TopBar from "./TopBar"; // pastikan jalur impor benar
+import Sidebar from "./Sidebar.jsx"; // pastikan jalur impor benar
+import TopBar from "./TopBar.jsx"; // pastikan jalur impor benar
 
 const Layout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

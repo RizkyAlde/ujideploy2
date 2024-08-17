@@ -101,7 +101,7 @@ export default function MonitoringPage() {
         >
           <p className="text-center text-black font-bold mb-2">Suhu</p>
           <Image
-            src="/img/temperature.png"
+            src="/assets/temperature.png"
             alt="icon suhu"
             width={50}
             height={50}
@@ -118,7 +118,7 @@ export default function MonitoringPage() {
             Kelembapan Udara
           </p>
           <Image
-            src="/img/humidity (2).png"
+            src="/assets/humidity (2).png"
             alt="icon kelembapan udara"
             width={50}
             height={50}
@@ -135,7 +135,7 @@ export default function MonitoringPage() {
             Intensitas Cahaya
           </p>
           <Image
-            src="/img/sunlight (1).png"
+            src="/assets/sunlight (1).png"
             alt="icon intensitas cahaya"
             width={50}
             height={50}
@@ -152,28 +152,13 @@ export default function MonitoringPage() {
             Kelembapan Tanah
           </p>
           <Image
-            src="/img/watering.png"
+            src="/assets/watering.png"
             alt="icon kelembaban tanah"
             width={50}
             height={50}
             className="mx-auto mb-2"
           />
           <p className="text-center text-black font-bold mb-2">60.8%</p>
-        </div>
-        {/* Widget 5 */}
-        <div
-          className="flex-1 rounded-2xl p-1 shadow ml-2"
-          style={{ backgroundColor: "#FFA62F" }}
-        >
-          <p className="text-center text-black font-bold mb-2">pH Tanah</p>
-          <Image
-            src="/img/ph-meter.png"
-            alt="icon ph tanah"
-            width={50}
-            height={50}
-            className="mx-auto mb-2"
-          />
-          <p className="text-center text-black font-bold mb-2">7 pH</p>
         </div>
       </div>
       <div
