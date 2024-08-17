@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faUserCircle } from "@fortawesome/free-solid-svg-icons";
-import NotificationSidebar from "../components/notification"; // pastikan jalur impor benar
+import Notification from "../components/Notification"; // pastikan jalur impor benar
 
 const TopBar = ({ setIsSidebarOpen }) => {
   const [show, setShow] = useState(true);
@@ -74,7 +74,7 @@ const TopBar = ({ setIsSidebarOpen }) => {
           />
         </div>
       </div>
-      <NotificationSidebar
+      <Notification
         isOpen={isSidebarOpen}
         onClose={() => {
           setLocalIsSidebarOpen(false);

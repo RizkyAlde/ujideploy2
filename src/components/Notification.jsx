@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
-const NotificationSidebar = ({ isOpen, onClose, notifications }) => {
+const Notification = ({ isOpen, onClose, notifications }) => {
   return (
     <div
       className={`fixed top-0 right-0 h-full bg-white shadow-lg transition-transform transform ${
@@ -10,7 +10,10 @@ const NotificationSidebar = ({ isOpen, onClose, notifications }) => {
       }`}
       style={{ width: "300px", zIndex: 40 }} // pastikan zIndex lebih tinggi dari elemen yang terblurkan
     >
-      <div className="p-4 flex justify-between items-center border-b" style={{ backgroundColor: "#AED260" }}>
+      <div
+        className="p-4 flex justify-between items-center border-b"
+        style={{ backgroundColor: "#AED260" }}
+      >
         <h2 className="text-lg font-semibold text-white">Pemberitahuan</h2>
         <button onClick={onClose} className="text-lg font-semibold text-white">
           <FontAwesomeIcon icon={faTimes} />
@@ -27,4 +30,4 @@ const NotificationSidebar = ({ isOpen, onClose, notifications }) => {
   );
 };
 
-export default NotificationSidebar;
+export default Notification;
