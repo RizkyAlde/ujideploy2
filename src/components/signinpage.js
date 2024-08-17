@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 function SigninPage() {
   const router = useRouter();
@@ -37,13 +38,13 @@ function SigninPage() {
             <div className="flex items-center">
               <Image
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=2000 2000w"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ed0fd4ec77508fc16c44a49a926a47a314f0eead3b5aabca5394c5f943d26af8?apiKey=56720a43f79840e1abfb6fc8af490491&width=2000 2000w"
                 className="max-w-full aspect-[0.93] w-[120px]"
+                alt="Logo"
               />
               <div className="mt-4 text-xl text-lime-800">DASHBOARD REPLON</div>
             </div>
-            <div className="bg-lime-300 mt-3 rounded-lg">
-              <div className="flex justify-center mb-1"></div>
+            <div className="bg-lime-300 mt-3 rounded-lg p-4">
               <h2 className="text-2xl text-lime-800 font-bold mb-2 text-left">
                 Sign In
               </h2>
@@ -145,16 +146,20 @@ function SigninPage() {
           </div>
         </div>
         <div className="flex flex-col ml-5 w-6/12 h-full max-md:w-full">
-          <div className="flex relative flex-col grow pt-12 pr-8 pb-2.5 text-center h-full max-md:max-w-full">
+          <div className="relative flex flex-col grow pt-12 pr-8 pb-2.5 text-center h-full max-md:max-w-full">
             <Image
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=1600 1600w"
-              className="object-cover absolute inset-0 size-full"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/afd5b473ea3b432b59bc9e38bb89a39c00de185fed28766231cfbdc22b438f12?apiKey=56720a43f79840e1abfb6fc8af490491&width=2000 2000w"
+              className="absolute max-w-full w-full aspect-[1.0] top-0 left-0"
+              alt="Background"
             />
-          </div>
-          <div className="absolute bottom-0 left-0 right-0 flex justify-center mb-2">
-            <div className="text-sm leading-6 text-black">
-              © 2024 Politeknik Elektronika Negeri Surabaya
+            <div className="relative z-10 text-2xl text-gray-800 font-bold">
+              <div className="absolute text-5xl font-semibold w-full text-white">
+                Welcome to Sign In
+              </div>
+              <div className="text-base font-normal mt-5 max-md:hidden">
+                A simple sign-in form to access your account.
+              </div>
             </div>
           </div>
         </div>
